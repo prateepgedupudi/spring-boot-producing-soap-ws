@@ -26,3 +26,5 @@ Generate domain classes with the below maven plugin.
 ## Create service endpoint
 ## Configure web service beans
 ## Make the application executable
+## wsdl end point
+https://desolate-retreat-67243.herokuapp.com/ws/states.wsdl
