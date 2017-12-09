@@ -23,7 +23,7 @@ public class StateEndpoint {
     @ResponsePayload
     public GetStateResponse getCountry(@RequestPayload GetStateRequest request) {
         GetStateResponse response = new GetStateResponse();
-        response.setState(stateRepository.findState(request.getName()));
+        response.setState(stateRepository.findState(request.getId()));
 
         return response;
     }
