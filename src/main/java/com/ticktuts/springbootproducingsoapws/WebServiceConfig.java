@@ -23,12 +23,12 @@ public class WebServiceConfig extends WsConfigurerAdapter {
     }
 
     @Bean(name = "states")
-    public DefaultWsdl11Definition defaultWsdl11Definition(XsdSchema countriesSchema) {
+    public DefaultWsdl11Definition defaultWsdl11Definition(XsdSchema statesSchema) {
         DefaultWsdl11Definition wsdl11Definition = new DefaultWsdl11Definition();
         wsdl11Definition.setPortTypeName("StatesPort");
         wsdl11Definition.setLocationUri("/ws");
         wsdl11Definition.setTargetNamespace("http://prateep.info/spring/soapws");
-        wsdl11Definition.setSchema(countriesSchema);
+        wsdl11Definition.setSchema(statesSchema);
         return wsdl11Definition;
     }
 
