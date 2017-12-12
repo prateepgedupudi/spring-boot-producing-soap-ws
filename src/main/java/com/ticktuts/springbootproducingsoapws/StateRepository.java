@@ -48,7 +48,7 @@ public class StateRepository {
     }
 
     public State findState(String id) {
-        Assert.notNull(id, "The country's name must not be null");
+        Assert.notNull(id, "State id must not be null");
         return states.get(id);
     }
 }
