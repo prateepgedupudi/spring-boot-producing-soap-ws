@@ -21,7 +21,7 @@ public class StateEndpoint {
 
     @PayloadRoot(namespace = NAMESPACE_URI, localPart = "getStateRequest")
     @ResponsePayload
-    public GetStateResponse getCountry(@RequestPayload GetStateRequest request) {
+    public GetStateResponse getState(@RequestPayload GetStateRequest request) {
         GetStateResponse response = new GetStateResponse();
         response.setState(stateRepository.findState(request.getId()));
 
