@@ -1,4 +1,5 @@
 # spring-boot-producing-soap-ws
+[![Build Status](https://dev.azure.com/prateepgedupudi/AzureDevOpsProject/_apis/build/status/prateepgedupudi.spring-boot-producing-soap-ws)](https://dev.azure.com/prateepgedupudi/AzureDevOpsProject/_build/latest?definitionId=1)
 ## Create an XML schema to define the domain
 ## Generate domain classes based on an XML schema
 Generate domain classes with the below maven plugin.
